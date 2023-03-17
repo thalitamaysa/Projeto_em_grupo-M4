@@ -1,0 +1,24 @@
+.Header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black
+}
+.Header .divHeader{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2em;
+}
+.Header .link {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: turquoise;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 3em;
+}
