@@ -7,13 +7,7 @@ import Filme from './pages/Filme/Filme'
 import Serie from './pages/Serie/Serie'
 import Cadastro from './pages/Cadastro/Cadastro'
 
-<<<<<<< HEAD
-
-function App() {
-  const [count, setCount] = useState(0)
-=======
 export default function App() {
->>>>>>> 4c0656006fb559d53df828e03de6e31ac9e1d31d
 
   return (
     <div className="App">
