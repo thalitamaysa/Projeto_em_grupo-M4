@@ -1,20 +1,34 @@
-import { useState } from 'react'
-import './App.css'
-import Background from './components/Background/Background'
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
-function App() {
-  const [count, setCount] = useState(0)
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import './App.css'
+import Login from './pages/Login/Login'
+import Inicio from './pages/Inicio/Inicio'
+import Musica from './pages/Musica/Musica'
+import Filme from './pages/Filme/Filme'
+import Serie from './pages/Serie/Serie'
+import Cadastro from './pages/Cadastro/Cadastro'
+
+export default function App() {
 
   return (
     <div className="App">
       <Router>
-      <Header/>
+
       <Routes>
         <Route path=''></Route>
       </Routes>
+        <Routes>
+          <Route path='/' element={<Inicio />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/musica' element={<Musica />} />
+          <Route path='/filme' element={<Filme />} />
+          <Route path='/serie' element={<Serie />} />
+          <Route path='/cadastro' element={<Cadastro />} />
+        </Routes>
       </Router>
     </div>
   )
 }
-export default App
+
+
+
