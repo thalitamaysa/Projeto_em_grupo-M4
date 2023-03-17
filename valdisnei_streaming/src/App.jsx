@@ -1,3 +1,4 @@
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Login from './pages/Login/Login'
@@ -12,6 +13,10 @@ export default function App() {
   return (
     <div className="App">
       <Router>
+
+      <Routes>
+        <Route path=''></Route>
+      </Routes>
         <Routes>
           <Route path='/' element={<Inicio />} />
           <Route path='/login' element={<Login />} />
@@ -24,3 +29,6 @@ export default function App() {
     </div>
   )
 }
+
+
+
