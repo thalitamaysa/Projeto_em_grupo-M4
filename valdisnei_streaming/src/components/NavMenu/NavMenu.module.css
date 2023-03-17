@@ -1,5 +1,14 @@
-
-.Nav a{
+.NavMenu a{
     text-decoration: none;
-    color:black;
+    color:white;
+    width: 8em;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.NavMenu{
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    border: 1px solid white;
 }
