@@ -12,13 +12,14 @@
   
   .filmesContainer {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 2%;
   }
   
   .filme {
     width: 30%;
     margin-bottom: 20px;
+    margin-left: 0%;
   }
   
   .filme img {
