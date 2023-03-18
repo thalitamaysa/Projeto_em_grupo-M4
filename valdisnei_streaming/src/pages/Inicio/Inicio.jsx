@@ -11,7 +11,7 @@ export default function Inicio() {
 
         <div className={styles.breaking}>
           <img src={BreakingBad}></img>
-          <span><h2>Séries</h2></span>
+          <span><h2>Series</h2></span>
         </div>
 
         <div className={styles.breaking}>

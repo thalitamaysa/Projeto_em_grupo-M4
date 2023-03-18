@@ -5,6 +5,8 @@ import Musica from './pages/Musica/Musica'
 import Filme from './pages/Filme/Filme'
 import Serie from './pages/Serie/Serie'
 import Cadastro from './pages/Cadastro/Cadastro'
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 export default function App() {
 

@@ -1,0 +1,40 @@
+.filmesBottom {
+ 
+    bottom: 0;
+
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .title {
+    margin-left: 0;
+  }
+  
+  .filmesContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .filme {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .filme img {
+    width: 40%;
+  }
+  .filme:hover{
+    opacity: 70%;
+  }
+  
+  .filmeTitle {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .filmeDescription {
+    font-size: 14px;
+    margin: 0;
+  }
