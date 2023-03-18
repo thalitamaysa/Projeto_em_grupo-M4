@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className={styles.HeaderMenu}>
         <span>
-
+          
         </span>
         <NavMenu/>
     </header>
