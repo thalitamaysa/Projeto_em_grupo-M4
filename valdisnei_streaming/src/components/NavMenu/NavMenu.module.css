@@ -1,14 +1,42 @@
-.NavMenu a{
-    text-decoration: none;
-    color:white;
-    width: 8em;
-    text-align: center;
-    justify-content: space-between;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Ajuste do NavMenu */
 .NavMenu{
     display: flex;
     align-items: center;
-    margin: 1em;
-    border: 1px solid white;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+}
+
+/* Ajuste do logo */
+.logoTop{
+    position: absolute;
+    top:0;
+    left: 0;
+}   
+
+.links{
+    display: flex;
+    align-items: center;
+    margin:0 5px;
+    padding:5px 0;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+
+.linkContainer{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.icones{
+    height: 20px;
+    width: 25px;
+    margin-right: 10px;
+    margin-left: 0;
 }
