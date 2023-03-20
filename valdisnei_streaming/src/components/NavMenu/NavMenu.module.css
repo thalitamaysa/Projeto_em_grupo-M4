@@ -5,9 +5,13 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    border: 1px solid;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 0;
+    margin-top: -12px;
+    width: 100%;
+}
+
+.containerHeader{
+    display: flex;
+    flex-direction: row;
 }
 
 /* Ajuste do logo */
@@ -15,28 +19,61 @@
     position: absolute;
     top:0;
     left: 0;
+    width: 150px;
+    height: 75px;
 }   
-
+/* Ajuste do link */
 .links{
     display: flex;
     align-items: center;
-    margin:0 5px;
-    padding:5px 0;
+    font-size: 12px;
+    width: 80px;
+    height: 20px;
+    margin:0 3px;
+    padding: 5px;
     color: white;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    margin-left: 20px;
+    text-transform: uppercase;
 }
 
 .linkContainer{
     display: flex;
     align-items: center;
-    gap:10px;
+    margin: 0 9px;
+    margin-right: -30px;
+    width: 120px;
 }
 
+/* Ajuste do icone */
 .icones{
     height: 20px;
     width: 25px;
-    margin-right: 10px;
-    margin-left: 0;
+}
+
+/* Ajuste do input */
+.searchContainer{
+    margin-right: auto;
+}
+
+.searchInput{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 15px;
+    padding: 5px 10px 5px 30px;
+    margin: 0;
+    margin-left: 40px;
+    background-color: #1e1e1e;
+    background-image: none;
+}
+
+
+.userIcon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 1px solid;
 }
