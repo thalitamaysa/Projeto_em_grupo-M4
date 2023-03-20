@@ -16,10 +16,17 @@
 
 /* body {
   margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg,rgba(0,0,0,1) 55%, rgba(25,53,55,1) 95%, rgba(25,53,55,1) 100%);
+}
+
   display: flex;
   min-width: 320px;
   min-height: 100vh;
 } */
+
 
 /* h1 {
   font-size: 3.2em;
@@ -55,5 +62,9 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+
+  }
+}
+
   } */
 

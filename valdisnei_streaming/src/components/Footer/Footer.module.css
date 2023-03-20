@@ -1,20 +1,10 @@
 .Footer{
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid black;
-}
-.colunas{
-    display: flex;
-    flex-direction: column;
+    position: absolute;
+    border: 1px solid white;
+    bottom: 0;
+    width: 200vh;
+    height: 60px;
+    display:flex;
     align-items: center;
-    justify-content: space-evenly;
-}
-.colunas h3{
-    color: turquoise;
-    font-size: 15px;
-    font-weight: 900;
-}
-.colunas a {
-    text-decoration: none;
-    color: black;
+    justify-content: center;
 }
