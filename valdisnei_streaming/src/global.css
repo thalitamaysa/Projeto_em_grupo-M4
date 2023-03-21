@@ -6,6 +6,5 @@ body, html, #root {
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     color: #FFF;
-    background: rgb(0,0,0);
     background: linear-gradient(180deg,rgba(0,0,0,1) 55%, rgba(25,53,55,1) 95%, rgba(25,53,55,1) 100%);
 }
