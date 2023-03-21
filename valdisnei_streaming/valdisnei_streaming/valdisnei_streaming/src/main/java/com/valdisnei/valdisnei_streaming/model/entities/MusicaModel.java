@@ -1,20 +1,20 @@
 package com.valdisnei.valdisnei_streaming.model.entities;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
+import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.Table;
-import org.springframework.data.annotation.Id;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
+/*@Builder*/
 
 @Entity
-@Table(name="Ator")
+@Table(name="Musica")
 public class MusicaModel extends MidiaModel{
+
+    @Column(name="nm_artista")
+    private String artista;
+    @Column(name="nt_musica")
+    private int nota;
 }
