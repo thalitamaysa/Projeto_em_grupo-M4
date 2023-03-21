@@ -2,36 +2,54 @@ import Play from '../../assets/icons/play.svg';
 import Adicionar from '../../assets/icons/adicionar.png';
 import styles from './ImagemComBotao.module.css';
 import Megan from '../../assets/img/filmes/megan.jpg';
-import Teen from '../../assets/img/filmes/TeenWolff.jpg';
 import hp from '../../assets/img/filmes/hp.png';
 import GatoDeBotas from '../../assets/img/filmes/gatosDeBotas.jpg';
-import React from 'react';
+import React, { useState } from 'react';
 
 const imagens = [
   {
     id: 1,
     src: Megan,
-    title: 'Megan'
+    title: 'Megan',
+    duration: 120
+
   },
   {
     id: 2,
     src: Megan,
-    title: 'Megan'
+    title: 'Megan',
+    duration:120
   },
   {
     id: 3,
     src: GatoDeBotas,
-    title: 'Gato de Botas'
+    title: 'Gato de Botas',
+    duration: 160
   },
   {
     id: 4,
     src: hp,
-    title: 'Game of Thrones'
+    title: 'Harry Potter',
+    duration:100
   },
 ];
 
+const playlist = [
+    {
+      id: 1,
+      src: Megan,
+      title: 'Megan'
+    },
+    {
+      id: 2,
+      src: Megan,
+      title: 'Megan'
+    }
+  ];
 
 function ImagemComBotao() {
+   
+
     return (
         // filmes 
       <div>
@@ -42,9 +60,11 @@ function ImagemComBotao() {
               <div className={styles.image}>
                 <img src={imagem.src} alt={imagem.title}/>  
                 <button className={styles.botaoPlay}>
+
                   <div className={styles.play}>
                     <img src={Play} alt="iconePlay" className={styles.icon} />
                   </div>
+                  
                 </button>
                 <button className={styles.botaoADD}>
                   <div className={styles.play}>
