@@ -18,6 +18,8 @@ import adicionar from './../../assets/icons/adicionar.png'
 import alterar from './../../assets/icons/alterar.png'
 import excluirlista from './../../assets/icons/excluirlista.png'
 
+import Footer from './../../components/Footer/Footer'
+
 export default function Musica() {
   return (
     
@@ -59,24 +61,3 @@ export default function Musica() {
     </div>
     )
   }
-  
-  // <div className={styles.container}>
-  //   <div className={linha1}>
-  //     <img src={PagodeSamba} alt="" />
-  //     <img src={Sertanejo} alt="" />
-  //     <img src={Funk} alt="" />
-  //     <img src={RB} alt="" />
-  //   </div>
-  //   <div className={linha2}>
-  //     <img src={HipHop} alt="" />
-  //     <img src={MPB} alt="" />
-  //     <img src={Pop} alt="" />
-  //     <img src={Rock} alt="" />
-  //   </div>
-  //   <div className={linha3}>
-  //     <img src={ParaTreinar} alt="" />
-  //     <img src={Dormir} alt="" />
-  //     <img src={Viajar} alt="" />
-  //     <img src={Relax} alt="" />
-  //   </div>
-  // </div>
