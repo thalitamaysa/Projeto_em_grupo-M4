@@ -14,9 +14,6 @@ export default function App() {
     <div>
       <Router>
         <HeaderMenu/>
-      <Routes>
-        <Route path=''></Route>
-      </Routes>
         <Routes>
           <Route path='/' element={<Inicio />} />
           <Route path='/login' element={<Login />} />
