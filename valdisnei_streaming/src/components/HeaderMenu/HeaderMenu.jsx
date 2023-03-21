@@ -5,9 +5,6 @@ import styles from "./HeaderMenu.module.css"
 export default function Header() {
   return (
     <header className={styles.HeaderMenu}>
-        <span>
-          
-        </span>
         <NavMenu/>
     </header>
   )

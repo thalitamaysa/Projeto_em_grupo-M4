@@ -27,52 +27,50 @@ function handleSearchSubmit(e){
         <div className={styles.logo}>
           <img src={Logo} alt="" className={`${styles.logo} ${styles.logoTop}`} />
         </div>
-        
+        <div className={styles.menu}>
+          <div className={styles.linkContainer}>
+            <img src={IconeInicio} alt="" className={styles.icones}/>
+            <Link to={"/"} className={styles.links}>Início</Link>
+          </div>
 
-        <div className={styles.linkContainer}>
-          <img src={IconeInicio} alt="" className={styles.icones}/>
-          <Link to={"/"} className={styles.links}>Inicio</Link>
+          <div className={styles.linkContainer}>
+            <img src={IconeSeries} alt="" className={styles.icones} />
+            <Link to={"/serie"} className={styles.links}>Séries</Link>  
+          </div>  
+          
+          <div className={styles.linkContainer}>
+            <img src={IconeFilme} alt=""  className={styles.icones} />
+            <Link to={"/filme"} className={styles.links}>Filmes</Link>
+          </div>
+
+          <div className={styles.linkContainer}>
+            <img src={IconeMusica} alt=""  className={styles.icones}/>
+            <Link to={"/musica"} className={styles.links}>Músicas</Link>
+          </div>
+
+          <div className={styles.linkContainer}>
+            <img src={IconeMinhaLista} alt="" className={styles.icones} />
+            <Link to={"/"} className={styles.links}>Minha Lista</Link>
+          </div>
         </div>
-
-        <div className={styles.linkContainer}>
-          <img src={IconeSeries} alt="" className={styles.icones} />
-          <Link to={"/serie"} className={styles.links}>Series</Link>  
-        </div>  
-        
-        <div className={styles.linkContainer}>
-          <img src={IconeFilme} alt=""  className={styles.icones} />
-          <Link to={"/filme"} className={styles.links}>Filmes</Link>
-        </div>
-
-        <div className={styles.linkContainer}>
-          <img src={IconeMusica} alt=""  className={styles.icones}/>
-          <Link to={"/musica"} className={styles.links}>Musicas</Link>
-        </div>
-
-        <div className={styles.linkContainer}>
-          <img src={IconeMinhaLista} alt="" className={styles.icones} />
-          <Link to={"/"} className={styles.links}>Minha Lista</Link>
-        </div>
-
-        <div className={styles.searchContainer}>
-        <form className={styles.handleSearch} onSubmit={handleSearchSubmit}>
-          <input 
-          type="text"
-          placeholder={`buscar...               \u{1F50D}`}
-          onChange = {handleSearchInputChange}
-          value={searchTerm}
-          className={styles.searchInput}
-          />
-        </form>
-        </div>
-
-        
       </nav>
+
+      <div className={styles.searchContainer}>
+        <form className={styles.handleSearch} onSubmit={handleSearchSubmit}>
+            <input 
+            type="text"
+            placeholder={`Buscar...`}
+            onChange = {handleSearchInputChange}
+            value={searchTerm}
+            className={styles.searchInput}
+            />
+          </form>
+      </div>
 
       
       <div className={styles.userIcon}>
           <img src={IconeUser}/>
-        </div>
+      </div>
     </div>
   )
 }

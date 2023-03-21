@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import './App.css'
 import Login from './pages/Login/Login'
 import Inicio from './pages/Inicio/Inicio'
 import Musica from './pages/Musica/Musica'
@@ -12,12 +11,9 @@ import Footer from './components/Footer/Footer'
 export default function App() {
 
   return (
-    <div className="App">
+    <div>
       <Router>
         <HeaderMenu/>
-      <Routes>
-        <Route path=''></Route>
-      </Routes>
         <Routes>
           <Route path='/' element={<Inicio />} />
           <Route path='/login' element={<Login />} />
