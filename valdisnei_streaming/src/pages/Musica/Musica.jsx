@@ -1,4 +1,6 @@
-import React from 'react'
+
+import React, { useState } from 'react';
+import { Modal, Button } from 'react-bootstrap';
 import styles from './Musica.module.css'
 import { Link } from 'react-router-dom'
 import Dormir from './../../assets/img/musicas/Dormir.png'
@@ -13,7 +15,6 @@ import Relax from './../../assets/img/musicas/Relax.png'
 import Rock from './../../assets/img/musicas/Rock.png'
 import Sertanejo from './../../assets/img/musicas/Sertanejo.png'
 import Viajar from './../../assets/img/musicas/Viajar.png'
-
 import adicionar from './../../assets/icons/adicionar.png'
 import alterar from './../../assets/icons/alterar.png'
 import excluirlista from './../../assets/icons/excluirlista.png'
@@ -21,6 +22,13 @@ import excluirlista from './../../assets/icons/excluirlista.png'
 import Footer from './../../components/Footer/Footer'
 
 export default function Musica() {
+
+  const handleMusicClick = (musicType) => {
+    setSelectedMusic(musicType);
+    setShowModal(true);
+  };
+  const [showModal, setShowModal] = useState(false);
+const [selectedMusic, setSelectedMusic] = useState('');
   return (
     
     <div className={styles.container}>
@@ -40,8 +48,8 @@ export default function Musica() {
       </div>
       <div className={styles.opcoes}>
         <div className={styles.linha1}>
-          <img src={PagodeSamba} alt="" />
-          <img src={Sertanejo} alt="" />
+         <img src={PagodeSamba} alt="" onClick={() => handleMusicClick('PagodeSamba')} />
+          <img src={Sertanejo} alt="" onClick={() => handleMusicClick('Sertanejo')} />  
           <img src={Funk} alt="" />
           <img src={RB} alt="" />
         </div>
@@ -58,6 +66,19 @@ export default function Musica() {
           <img src={Relax} alt="" />
         </div>
       </div>
+      <Modal show={showModal} onHide={() => setShowModal(false)} style={{width: '100vw', height:'100vh'}}>
+  <Modal.Header closeButton>
+    <Modal.Title>Músicas de {selectedMusic}</Modal.Title>
+  </Modal.Header>
+  <Modal.Body>
+    {/* Conteúdo do modal aqui */}
+  </Modal.Body>
+  <Modal.Footer>
+    <Button variant="secondary" onClick={() => setShowModal(false)}>
+      Fechar
+    </Button>
+  </Modal.Footer>
+</Modal>
     </div>
     )
   }
