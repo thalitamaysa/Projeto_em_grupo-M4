@@ -1,27 +1,34 @@
 import React from 'react'
-import Carousel from 'react-bootstrap/Carousel'
-import Container from 'react-bootstrap/Container'
+import {Carousel} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './Carousel.module.css';
-//  
+
+
 
 
 
 export default function CarouselNoController() {
   return (
-    <Container fluid>
-      <Carousel fade>
+      
+      <Carousel fade className={styles.Carousel} indicators={false}>
+      <Carousel.Item > 
+      <img  className='d-block w-100' src='https://i.postimg.cc/DwBV3P8w/asbranquelas-1.jpg' border='0' alt='asbranquelas-1'/>      </Carousel.Item>
       <Carousel.Item>
-        <img className='img1' src='https://i.postimg.cc/7Zc5pv7L/Poster-Harry-Potter-e-o-Prisioneiro-de-Azkaban.webp' border='0' width={'250px'} object-fit={'contain'} display={'flex'} justify={'center'} align-itens={'center'} alt='Poster-Harry-Potter-e-o-Prisioneiro-de-Azkaban'/>
+        <img  className='d-block w-100' src='https://i.postimg.cc/nh4jRM0p/avatar-filme-1.jpg' border='0' alt='avatar-filme-1'/>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='img2' src='https://i.postimg.cc/Ssd3cKdT/harry.jpg' border='0' alt='harry'/>
+        <img className='d-block w-100' src='https://i.postimg.cc/rsmc7Z9c/oautodacompadecidacapa-1.jpg' border='0' alt='oautodacompadecidacapa-1'/>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='img3' src='https://i.postimg.cc/9McFWrzJ/Design-sem-nome.png' border='0' alt='Design-sem-nome'/>
+        <img className='d-block w-100' src='https://i.postimg.cc/dVrtsXyB/underworld.png' border='0' alt='underworld'/>
       </Carousel.Item>
     </Carousel>
-  </Container>
+    
+    
+  
     
   );
 }
+
+
+
