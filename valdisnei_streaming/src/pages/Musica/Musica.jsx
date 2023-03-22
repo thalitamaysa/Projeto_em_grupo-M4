@@ -71,7 +71,7 @@ const [selectedMusic, setSelectedMusic] = useState('');
     <Modal.Title>Músicas de {selectedMusic}</Modal.Title>
   </Modal.Header>
   <Modal.Body>
-    {/* Conteúdo do modal aqui */}
+    {/* Conteúdo*/}
   </Modal.Body>
   <Modal.Footer>
     <Button variant="secondary" onClick={() => setShowModal(false)}>
