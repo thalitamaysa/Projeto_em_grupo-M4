@@ -8,10 +8,7 @@ function MusicList() {
     'As It Was. Harry Styles.'
   ]);
 
-  const handleAddMusic = () => {
-    const newMusic = prompt('Digite o nome da nova música:');
-    setMusicList([...musicList, newMusic]);
-  };
+ 
 
   return (
 <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
