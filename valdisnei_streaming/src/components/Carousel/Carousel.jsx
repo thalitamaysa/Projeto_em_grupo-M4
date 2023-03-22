@@ -11,16 +11,16 @@ export default function CarouselNoController() {
   return (
       
       <Carousel fade className={styles.Carousel} indicators={false}>
-      <Carousel.Item > 
-      <img  className='d-block w-100' src='https://i.postimg.cc/DwBV3P8w/asbranquelas-1.jpg' border='0' alt='asbranquelas-1'/>      </Carousel.Item>
-      <Carousel.Item>
-        <img  className='d-block w-100' src='https://i.postimg.cc/nh4jRM0p/avatar-filme-1.jpg' border='0' alt='avatar-filme-1'/>
+      <Carousel.Item interval={4000}> 
+      <img  className='d-block w-100 rounded-3 shadow-4-strong' src='https://i.postimg.cc/DwBV3P8w/asbranquelas-1.jpg' border ='0' alt='asbranquelas-1'/>      </Carousel.Item>
+      <Carousel.Item interval={4000}>
+        <img  className='d-block w-100 rounded-3 shadow-4-strong' src='https://i.postimg.cc/nh4jRM0p/avatar-filme-1.jpg' border='0' alt='avatar-filme-1'/>
       </Carousel.Item>
-      <Carousel.Item>
-        <img className='d-block w-100' src='https://i.postimg.cc/rsmc7Z9c/oautodacompadecidacapa-1.jpg' border='0' alt='oautodacompadecidacapa-1'/>
+      <Carousel.Item interval={4000}>
+        <img className='d-block w-100 rounded-3 shadow-4-strong' src='https://i.postimg.cc/rsmc7Z9c/oautodacompadecidacapa-1.jpg' border='0' alt='oautodacompadecidacapa-1'/>
       </Carousel.Item>
-      <Carousel.Item>
-        <img className='d-block w-100' src='https://i.postimg.cc/dVrtsXyB/underworld.png' border='0' alt='underworld'/>
+      <Carousel.Item interval={4000}>
+        <img className='d-block w-100 rounded-3 shadow-4-strong' src='https://i.postimg.cc/dVrtsXyB/underworld.png' border='0' alt='underworld'/>
       </Carousel.Item>
     </Carousel>
     
