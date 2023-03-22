@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Ajuste do NavMenu */
+.NavMenu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.containerHeader{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+
+/* Ajuste do logo */
+.logoTop{
+    width: auto;
+    height: 100px;
+}
+
+/* Ajuste do link */
+.links{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.linkContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Ajuste do icone */
+.icones{
+    height: 15px;
+}
+
+/* Ajuste do input */
+.searchContainer{
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.searchInput{
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px 5px 15px;
+    background-color: #1e1e1e;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+}
+
+
+.userIcon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+}
