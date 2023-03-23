@@ -11,9 +11,7 @@ export default function Serie() {
     <>
     <HeaderMenu/>
     <Container>
-    <div className={styles.Carousel}>
       <Carousel />
-    </div>
     </Container>
     <Footer/>
     </> 
