@@ -6,7 +6,7 @@ export default function Filme() {
   return (
     <div>
       <ImagemComBotao  />
-      <PlaylistBottom />
+      {/* <PlaylistBottom /> */}
     </div>
   );
 

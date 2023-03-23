@@ -6,7 +6,7 @@ import Filme from './pages/Filme/Filme'
 import Serie from './pages/Serie/Serie'
 import Cadastro from './pages/Cadastro/Cadastro'
 import PlaylistMusic from './pages/PlaylistMusica/PlaylistMusic'
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 
 import HeaderMenu from './components/HeaderMenu/HeaderMenu'
 import Footer from './components/Footer/Footer'
@@ -16,7 +16,6 @@ export default function App() {
   return (
     <div>
       <Router>
-        <HeaderMenu/>
         <Routes>
           <Route path='/' element={<Inicio />} />
           <Route path='/login' element={<Login />} />
@@ -27,7 +26,6 @@ export default function App() {
           <Route path='/playlistMusic' element={<PlaylistMusic />} />
         </Routes>
       </Router>
-      <Footer/>
     </div>    
   )
 }

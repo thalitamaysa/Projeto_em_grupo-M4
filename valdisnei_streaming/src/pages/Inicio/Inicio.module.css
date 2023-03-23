@@ -2,7 +2,7 @@
 .InicioBody{
     display: flex;
     justify-content: space-around;
-    height: 100vh;
+    height: 70vh;
     align-items: center;
 }
 .centroInicio{
@@ -19,6 +19,7 @@
     
 }
 .breaking img{
+    width: 225px;
     transition: 0.5;
 }
 
