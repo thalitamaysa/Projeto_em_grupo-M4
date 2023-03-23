@@ -1,10 +1,11 @@
 import React from 'react'
-import ImagemComBotao from '../../components/ImagemComBotao/ImagemComBotao';
+import ImagemBotaoF from '../../components/ImagemBotaoF/ImagemBotaoF';
 import 'bootstrap/dist/css/bootstrap.css';
-// import HeaderMenu from '../../components/HeaderMenu/HeaderMenu';
+import styles from '../../components/CarouselFilme/CarouselFilme.module.css'
+import CarouselFilme from '../../components/CarouselFilme/CarouselFilme';
+import HeaderMenu from '../../components/HeaderMenu/HeaderMenu';
 import Footer from '../../components/Footer/Footer';
-import styles from '../../components/CarouselFilme/Carousel.module.css'
-import Carousel from '../../components/CarouselFilme/Carousel';
+import { Container } from 'react-bootstrap';
 
 
 
@@ -12,7 +13,10 @@ export default function Filme() {
   return (
     <>
     <HeaderMenu/>
-      <ImagemComBotao  />
+    <Container>
+    <CarouselFilme />
+      </Container>
+      <ImagemBotaoF />
     <Footer/>
     </>
 

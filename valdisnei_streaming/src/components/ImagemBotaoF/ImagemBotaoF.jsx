@@ -1,66 +1,92 @@
 import Play from '../../assets/icons/play.svg';
 import Adicionar from '../../assets/icons/adicionar.png';
-import styles from './ImagemComBotao.module.css';
+import styles from './ImagemBotaoF.module.css';
 import Megan from '../../assets/img/filmes/megan.jpg';
-import hp from '../../assets/img/filmes/hp.png';
-import GatoDeBotas from '../../assets/img/filmes/gatosDeBotas.jpg';
-mport avatar from '../../assets/img/filmes/avatar.jpg';
-import oautodacompadecia from '../../assets/img/filmes/oautodacompadecida.jpg';
-import TeenWolff from '../../assets/img/filmes/TeenWolff.jpg'
-import wakandaParaSempre from '../../assets/img/filmes/wakandaParaSempre.jpg'
+import hp from '../../assets/img/filmes/harry.jpg';
+import GatoDeBotas from '../../assets/img/filmes/gatoDeBotas.jpg';
+import avatar from '../../assets/img/filmes/avatar.jpg';
+import oautodacompadecida from '../../assets/img/filmes/oautodacompadecida.jpg';
+import TeenWolff from '../../assets/img/filmes/TeenWolff.jpg';
+import wakandaParaSempre from '../../assets/img/filmes/wakandaParaSempre.jpg';
+import One from '../../assets/img/filmes/onepiece.jpg';
+import Anjos from '../../assets/img/filmes/anjos.jpg';
+import Constantine from '../../assets/img/filmes/constantine.jpg';
+import Gente from '../../assets/img/filmes/gentegrande.jpg';
+import bohemian from '../../assets/img/filmes/bohemian.jpg';
+import interestelar from '../../assets/img/filmes/interestelar.jpg';
+import guerra from '../../assets/img/filmes/guerra.jpg';
+import princesa from '../../assets/img/filmes/princesa.jpg';
 import React, { useState } from 'react';
 
-const sugestões = [
+const fsugestões = [
   {
   id: 1,
   src: hp,
-  title: 'Harry Potter',
+  title: 'Harry Potter e o Prisoneiro de Azkaban',
   duration:100
 },
 {
   id: 2,
-  src: oautodacompadecia,
-  title: 'O Auto da Compadecida',
-  duration:84
+  src: bohemian,
+  title: 'Bohemian Rhapsody',
+  duration: 134
 },
 {
   id: 3,
-  src: Megan,
-  title: 'Megan',
-  duration: 120
+  src: interestelar,
+  title: 'Interestelar',
+  duration: 169
 
 },
 {
-  id: 2,
-  src: avatar,
-  title: 'Avatar 2',
-  duration: 187.2
+  id: 4,
+  src: guerra,
+  title: 'Guerra mundial Z',
+  duration: 116
 },
 {
-  id: 3,
-  src: GatoDeBotas,
-  title: 'Gato de Botas 2',
-  duration: 160
+  id: 5,
+  src: princesa,
+  title: 'A Princesa e o Sapo',
+  duration: 97
 }
 ];
 
-const emAlta = [
+const femAlta = [
   {
     id: 1,
-    src: hp,
-    title: 'Harry Potter',
-      duration:100
+    src: One,
+    title: 'One Piece: RED',
+      duration: 115
     },
   
     {
       id: 2,
-      src: oautodacompadecia,
+      src: oautodacompadecida,
       title: 'O Auto da Compadecida',
-      duration:84
+      duration: 84
+    },
+    {
+      id: 3,
+      src: Anjos,
+      title: 'Anjos da noite: Guerras de Sangue',
+      duration: 91
+    },
+    {
+      id: 4,
+      src: Gente,
+      title: 'Gente Grande',
+      duration: 102
+    },
+    {
+      id: 5,
+      src: Constantine,
+      title: 'Constantine',
+      duration: 121
     }
   ];
 
-  const lançamentos =  [{
+  const flançamentos =  [{
     id: 1,
     src: Megan,
     title: 'Megan',
@@ -86,32 +112,13 @@ const emAlta = [
   },
   {
     id: 5,
-    src: Megan,
-    title: 'Harry Potter',
+    src: wakandaParaSempre,
+    title: 'Wakanda para sempre',
     duration:100
-  },
-  {
-    id: 6,
-    src: hp,
-    title: 'Harry Potter',
-    duration:100
-  },
-  {
-    id: 7,
-    src: Megan,
-    title: 'Harry Potter',
-    duration:100
-  },
-  {
-    id: 8,
-    src: hp,
-    title: 'Harry Potter',
-    duration:100
-  },
-  
-  
+  },  
 ];
    
+
   
   function ImagemComBotao() {
    
@@ -120,17 +127,15 @@ const emAlta = [
       // filmes 
       <div>
         <div className={styles.container}>
-          <div className={styles.textoTop10}>Sugestões</div>
-          {sugestões.map(imagem => (
-            <div className={styles.btnWrap} key={imagem.id}>
-              <div className={styles.image}>
+          <div className={styles.texto}>Sugestões</div>
+          {fsugestões.map(imagem => (
+                <div className={styles.btnWrap} key={imagem.id}>
+            <div className={styles.image}>
               <img src={imagem.src} alt={imagem.title}/> 
                 <button className={styles.botaoPlay}>
-
                   <div className={styles.play}>
                     <img src={Play} alt="iconePlay" className={styles.icon} />
                   </div>
-                  
                 </button>
                 <button className={styles.botaoADD}>
                   <div className={styles.play}>
@@ -146,10 +151,10 @@ const emAlta = [
             
 
       <div className={styles.container2}>
-      <div className={styles.textoTop10}>Em alta</div>
-      {emAlta.map(imagem => (
-        <div className={styles.btnWrap} key={imagem.id}>
-          <div className={styles.image}>
+      <div className={styles.texto}>Em alta</div>
+      {femAlta.map(imagem => (
+      <div className={styles.btnWrap} key={imagem.id}>
+        <div className={styles.image}>
           <img src={imagem.src} alt={imagem.title}/> 
             <button className={styles.botaoPlay}>
 
@@ -160,7 +165,7 @@ const emAlta = [
             </button>
             <button className={styles.botaoADD}>
               <div className={styles.play}>
-                <img src={Adicionar} alt="iconeADD" className={styles.icon2}></img>
+                <img src={Adicionar} alt="iconeADD" className={styles.icon2}/>
               </div>
             </button>
             </div>
@@ -171,10 +176,10 @@ const emAlta = [
       </div>
 
       <div className={styles.container3}>
-      <div className={styles.textoTop10}>Lançamentos</div>
-      {lançamentos.map(imagem => (
+      <div className={styles.texto}>Lançamentos</div>
+      {flançamentos.map(imagem => (
         <div className={styles.btnWrap} key={imagem.id}>
-          <div className={styles.image}>
+            <div className={styles.image}>
           <img src={imagem.src} alt={imagem.title}/> 
             <button className={styles.botaoPlay}>
 
@@ -185,7 +190,7 @@ const emAlta = [
             </button>
             <button className={styles.botaoADD}>
               <div className={styles.play}>
-                <img src={Adicionar} alt="iconeADD" className={styles.icon2}></img>
+                <img src={Adicionar} alt="iconeADD" className={styles.icon2}/>
               </div>
             </button>
             </div>
@@ -193,12 +198,7 @@ const emAlta = [
           
           </div> 
       ))}
-      </div>
-
-
-
-
-      
+      </div>      
       </div>
               
               
