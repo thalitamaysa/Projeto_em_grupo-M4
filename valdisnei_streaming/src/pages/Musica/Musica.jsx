@@ -44,22 +44,22 @@ export default function Musica() {
       </div>
       <div className={styles.opcoes}>
         <div className={styles.linha1}>
-         <img src={PagodeSamba} alt="" onClick={() => handleMusicClick('PagodeSamba')} />
-          <img src={Sertanejo} alt="" onClick={() => handleMusicClick('Sertanejo')} />  
-          <img src={Funk} alt="" />
-          <img src={RB} alt="" />
+         <img src={PagodeSamba} alt="capa pagode - thiaguinho" />
+          <img src={Sertanejo} alt="capa sertanejo - jorge&mateus" />  
+          <img src={Funk} alt="capa funk - mc poze" />
+          <img src={RB} alt="capa r&b" />
         </div>
         <div className={styles.linha2}>
-          <img src={HipHop} alt="" />
-          <img src={MPB} alt="" />
-          <img src={Pop} alt="" />
-          <img src={Rock} alt="" />
+          <img src={HipHop} alt="capa hiphop - kendrick lamar" />
+          <img src={MPB} alt="capa mpb - caetano" />
+          <img src={Pop} alt="capa pop - bruno mars" />
+          <img src={Rock} alt="capa rock - led zeppelin" />
         </div>
         <div className={styles.linha3}>
-          <img src={ParaTreinar} alt="" />
-          <img src={Dormir} alt="" />
-          <img src={Viajar} alt="" />
-          <img src={Relax} alt="" />
+          <img src={ParaTreinar} alt="capa gym" />
+          <img src={Dormir} alt="capa sleep" />
+          <img src={Viajar} alt="capa viagem" />
+          <img src={Relax} alt="capa relax" />
         </div>
       </div>
     </div>

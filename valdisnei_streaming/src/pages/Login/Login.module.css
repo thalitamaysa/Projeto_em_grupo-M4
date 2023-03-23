@@ -36,7 +36,7 @@
 }
 
 #cadastro {
-    width: 320px;
+    width: 340px;
     margin-bottom: 30px;
     padding: 10px;
 }
@@ -51,7 +51,6 @@
     color: #FFF;
     background-color: #000000;
     cursor: pointer;
-    transition: 0.2s;
 }
 
 .link {

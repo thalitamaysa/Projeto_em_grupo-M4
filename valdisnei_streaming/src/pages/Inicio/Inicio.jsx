@@ -6,6 +6,8 @@ import pink from '../../assets/img/musicas/capapinkfloid.png';
 import HeaderMenu from '../../components/HeaderMenu/HeaderMenu';
 import Footer from '../../components/Footer/Footer';
 
+import { Link } from 'react-router-dom';
+
 export default function Inicio() {
   return (
     <>
@@ -14,17 +16,17 @@ export default function Inicio() {
       <div  className={styles.centroInicio}>
 
         <div className={styles.breaking}>
-          <img src={BreakingBad}></img>
+          <Link to='/serie'><img src={BreakingBad} alt='capa serie harrypotter'></img></Link>
           <span><h2>Séries</h2></span>
         </div>
 
         <div className={styles.breaking}>
-          <img src={hp}></img>
+          <Link to='/filme'><img src={hp} alt='capa filme harrypotter'></img></Link>
           <span><h2>Filmes</h2></span>
         </div>
 
          <div className={styles.breaking}>
-          <img src={pink}></img>
+          <Link to='/musica'><img src={pink} alt='capa pinkfloyd'></img></Link>
           <span><h2>Músicas</h2></span>
         </div>
 

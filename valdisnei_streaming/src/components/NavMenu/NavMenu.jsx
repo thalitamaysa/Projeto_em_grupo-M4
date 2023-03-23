@@ -27,31 +27,31 @@ function handleSearchSubmit(e){
     <div className={styles.containerHeader}>
       <nav className={styles.NavMenu}>
         <div className={styles.logo}>
-          <img src={Logo} alt="" className={`${styles.logo} ${styles.logoTop}`} />
+          <img src={Logo} alt="icone logo valdisnei" className={`${styles.logo} ${styles.logoTop}`} />
         </div>
         <div className={styles.menu}>
           <div className={styles.linkContainer}>
-            <img src={IconeInicio} alt="" className={styles.icones}/>
+            <img src={IconeInicio} alt="icone inicio" className={styles.icones}/>
             <Link to={"/"} className={styles.links}>Início</Link>
           </div>
 
           <div className={styles.linkContainer}>
-            <img src={IconeSeries} alt="" className={styles.icones} />
+            <img src={IconeSeries} alt="icone series" className={styles.icones} />
             <Link to={"/serie"} className={styles.links}>Séries</Link>  
           </div>  
           
           <div className={styles.linkContainer}>
-            <img src={IconeFilme} alt=""  className={styles.icones} />
+            <img src={IconeFilme} alt="icone filmes"  className={styles.icones} />
             <Link to={"/filme"} className={styles.links}>Filmes</Link>
           </div>
 
           <div className={styles.linkContainer}>
-            <img src={IconeMusica} alt=""  className={styles.icones}/>
+            <img src={IconeMusica} alt="icone musicas"  className={styles.icones}/>
             <Link to={"/musica"} className={styles.links}>Músicas</Link>
           </div>
 
           <div className={styles.linkContainer1}>
-            <img src={IconeMinhaLista} alt="" className={styles.icones} />
+            <img src={IconeMinhaLista} alt="icone minha lista" className={styles.icones} />
             <Link to={"/"} className={styles.links}>Minha Lista</Link>
           </div>
         </div>
