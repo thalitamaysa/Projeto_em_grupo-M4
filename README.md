@@ -8,7 +8,7 @@
 <p align="center"> Neste projeto uma empresa de midia deseja implementar um serviço streaming chamado Valdisnei e fomos contratados para desenvolver uma aplicação web que implementa esse serviço.
 <br> Neste serviço deve conter músicas, filmes, séries e demais mídias.</p>
 
-<h4 align="center">O que vamos utilizar para criar uma aplicação para este projeto é: </h4>
+<h4 align="center">As ferramentas utilizadas para criar este projeto foram: </h4>
 
 ![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![image](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
@@ -38,11 +38,6 @@
 <h4 align="center"> Além dos requisitos acima, deve se ter um banco de dados como citado acima em MySql para que o usuário possa consultar mídias presentes na biblioteca por artista, genêro e ano, bem como gerenciar suas playlists.</h4>
 
 
-<h3 align="center">Ferramentas utilizadas:</h3>
-<p align="center">
-<img src='https://i.postimg.cc/Tp0cZBCs/java-original-wordmark-logo-icon-146459.png' border='0' alt='java-original-wordmark-logo-icon-146459' width="100px"/>
-<img src='https://i.postimg.cc/Z9sb2Ydq/kisspng-intellij-idea-jetbrains-integrated-development-env-5b9a70df9dd6c3-3468850615368480956465-rem.png' border='0' alt='kisspng-intellij-idea-jetbrains-integrated-development-env-5b9a70df9dd6c3-3468850615368480956465-rem' width="100px"/>
-</p>
 
 <h2 align='center'> 🦸 Colaboradores</h2>
 
