@@ -1,20 +1,26 @@
 <h1 align="center"> :iphone: Streaming Digital :computer: </h1> 
 
 
-<h2 align="center">:sparkles: Projeto em grupo modulo 4 :sparkles:</h2>
+<h2 align="center">:sparkles: Projeto em grupo - Modulo 4 :sparkles:</h2>
 
-<h3 align="center">Estarei apresentando meu projeto individual e como foi desenvolvido.</h3>
+<h2 align="center">:arrow_down: Abaixo está informações de como o projeto foi desenvolvido:arrow_down:</h2>
 
 <p align="center"> Neste projeto uma empresa de midia deseja implementar um serviço streaming chamado Valdisnei e fomos contratados para desenvolver uma aplicação web que implementa esse serviço.
 <br> Neste serviço deve conter músicas, filmes, séries e demais mídias.</p>
 
 <h4 align="center">O que vamos utilizar para criar uma aplicação para este projeto é: </h4>
 
-<li align="center"> React
-<li align="center"> Spring Boot
-<li align="center"> Spring Data
-<li align="center"> MySql
-</li>
+![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![image](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![image](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Java](https://img.shields.io/badge/java19-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+
+
+
 
 <h4 align="center">E o que deve conter dentro dessa aplicação é: </h4>
 
@@ -38,6 +44,39 @@
 <img src='https://i.postimg.cc/Z9sb2Ydq/kisspng-intellij-idea-jetbrains-integrated-development-env-5b9a70df9dd6c3-3468850615368480956465-rem.png' border='0' alt='kisspng-intellij-idea-jetbrains-integrated-development-env-5b9a70df9dd6c3-3468850615368480956465-rem' width="100px"/>
 </p>
 
+<h2 align='center'> 🦸 Colaboradores</h2>
+
+
+<b>Emerson Galdino</b>
+<br>
+
+[![Linkedin Badge](https://img.shields.io/badge/emersongaldino-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/emerson-pg/)](https://www.linkedin.com/in/emerson-pg/) [![Github Badge](https://img.shields.io/badge/emersongaldino-100000?style=for-the-badge&logo=github&logoColor=whitee&link=https://github.com/EmersonGald1n0)](https://github.com/EmersonGald1n0)
+
+
+
+
+
+<b>João Vitor Evora</b>
+<br>
+
+[![Linkedin Badge](https://img.shields.io/badge/joaovitorevora-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/joaovitorevora/)](https://www.linkedin.com/in/joaovitorevora/) [![Github Badge](https://img.shields.io/badge/joaovitorevora-100000?style=for-the-badge&logo=github&logoColor=whitee&link=https://github.com/joaovitorevora)](https://github.com/joaovitorevora)
+
+
+
+<b align='right'>Leonardo Reis</b>
+<br>
+
+[![Linkedin Badge](https://img.shields.io/badge/leornardoreis-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=//https://www.linkedin.com/in/leonardo-reis-95228893/)](https://www.linkedin.com/in/leonardo-reis-95228893/) [![Github Badge](https://img.shields.io/badge/leonardoreis-100000?style=for-the-badge&logo=github&logoColor=whitee&link=https://github.com/lrmello/)](https://github.com/lrmello/)
+
+
+
+<b>Thalita Maysa</b>
+<br>
+
+[![Linkedin Badge](https://img.shields.io/badge/thalitamaysa-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/thalita-maysa-a17707185//)](https://www.linkedin.com/in/thalita-maysa-a17707185//) [![Github Badge](https://img.shields.io/badge/thalitamaysa-100000?style=for-the-badge&logo=github&logoColor=whitee&link=https://github.com/thalitamaysa)](https://github.com/thalitamaysa)
+
+</p>
+
 
 
 <h4 align="center"> 
@@ -48,6 +87,3 @@
 
 
 
-<p align="center"><img src='https://i.postimg.cc/tsGMz4hW/8d30fac4bf94f93d8de538d4c13b0b44.gif' border='0' alt='8d30fac4bf94f93d8de538d4c13b0b44'/>
-
-<h4 align="center"> :sparkles: Como ultimo projeto individual, gostaria de agradecer a todos do curso da Resilia e seus facilitadores, a RD que me deu essa oportunidade, ao pessoal da RD que nos acompanharam até aqui, aos meus amigos de trabalho que me apoiaram em todos os projetos e as pessoas que sempre estiveram ao meu lado me apoiando.":sparkles:</h4>
