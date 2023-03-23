@@ -4,7 +4,6 @@ import styles from './ImagemComBotao.module.css';
 import Megan from '../../assets/img/filmes/megan.jpg';
 import hp from '../../assets/img/filmes/hp.png';
 import GatoDeBotas from '../../assets/img/filmes/gatosDeBotas.jpg';
-import React, { useState } from 'react';
 
 const imagens = [
   {
@@ -12,7 +11,6 @@ const imagens = [
     src: Megan,
     title: 'Megan',
     duration: 120
-
   },
   {
     id: 2,
@@ -32,6 +30,32 @@ const imagens = [
     title: 'Harry Potter',
     duration:100
   },
+  {
+    id: 5,
+    src: Megan,
+    title: 'Harry Potter',
+    duration:100
+  },
+  {
+    id: 6,
+    src: hp,
+    title: 'Harry Potter',
+    duration:100
+  },
+  {
+    id: 7,
+    src: Megan,
+    title: 'Harry Potter',
+    duration:100
+  },
+  {
+    id: 8,
+    src: hp,
+    title: 'Harry Potter',
+    duration:100
+  },
+  
+  
 ];
 
 const playlist = [

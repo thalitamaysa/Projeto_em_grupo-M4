@@ -1,13 +1,16 @@
 import React from 'react'
 import ImagemComBotao from '../../components/ImagemComBotao/ImagemComBotao';
 import 'bootstrap/dist/css/bootstrap.css';
-import PlaylistBottom from '../../components/PlaylistBottom/PlaylistBottom';
+import HeaderMenu from '../../components/HeaderMenu/HeaderMenu';
+import Footer from '../../components/Footer/Footer';
+
 export default function Filme() {
   return (
-    <div>
+    <>
+    <HeaderMenu/>
       <ImagemComBotao  />
-      <PlaylistBottom />
-    </div>
+    <Footer/>
+    </>
   );
 
 }
