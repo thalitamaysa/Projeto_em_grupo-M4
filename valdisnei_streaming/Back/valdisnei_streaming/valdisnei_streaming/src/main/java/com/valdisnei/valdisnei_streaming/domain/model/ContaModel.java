@@ -1,18 +1,17 @@
-package com.valdisnei.valdisnei_streaming.model;
+package com.valdisnei.valdisnei_streaming.domain.model;
 
 import jakarta.persistence.*;
 import lombok.*;
 
-@Builder
+
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
-
 
 @Entity
 @Table(name="Conta")
 public class ContaModel {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -20,4 +19,9 @@ public class ContaModel {
     @OneToOne
     private UsuarioModel usuario;
 
+    @Builder(builderMethodName = "contaModel")
+
+    public ContaModel(UsuarioModel usuario) {
+        this.usuario = usuario;
+    }
 }

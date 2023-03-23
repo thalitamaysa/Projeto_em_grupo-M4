@@ -1,13 +1,13 @@
-package com.valdisnei.valdisnei_streaming.model;
+package com.valdisnei.valdisnei_streaming.domain.model;
 
 import jakarta.persistence.*;
 import lombok.*;
 
-@Builder
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
+@Builder
 
 @Entity
 @Table(name = "Biblioteca")
@@ -18,7 +18,10 @@ public class BibliotecaModel {
     private Long id;
 
     @OneToMany
-    private MidiaModel[] midia;
+    private FilmeModel[] filme;
+
+    @OneToMany
+    private MusicaModel[] musicaModel;
 
     @OneToOne
     private UsuarioModel usuario;

@@ -1,13 +1,14 @@
-package com.valdisnei.valdisnei_streaming.model;
+package com.valdisnei.valdisnei_streaming.domain.model;
 
 import jakarta.persistence.*;
 import lombok.*;
 
-@Builder
+
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
+@Builder
 
 @Entity
 @Table(name="Playlist")
@@ -18,9 +19,14 @@ public class PlaylistModel {
     private Long id;
 
     @OneToMany
-    private MidiaModel[] midias;
+    private FilmeModel[] filme;
 
-    private Integer[] ordem;
-    @OneToOne
-    private MidiaModel midiaAtual;
+    @OneToMany
+    private MusicaModel[] musicaModel;
+
+    private int ordem;
+
+    private int midiaAtual;
+
+
 }

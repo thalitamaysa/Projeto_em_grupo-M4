@@ -1,13 +1,11 @@
-package com.valdisnei.valdisnei_streaming.model;
+package com.valdisnei.valdisnei_streaming.domain.model;
 
 import jakarta.persistence.*;
 import lombok.*;
 
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
-
 
 @Entity
 @Table(name = "Ator")
@@ -19,4 +17,8 @@ public class AtorModel extends ArtistaModel{
 
     private String formacao;
 
+    @Builder(builderMethodName = "atorBuilder")
+    public AtorModel( String nome, String dataDeNascimento, String genero) {
+        super(nome, dataDeNascimento, genero);
+    }
 }

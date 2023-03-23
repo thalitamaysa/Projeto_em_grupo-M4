@@ -1,6 +1,6 @@
 package com.valdisnei.valdisnei_streaming.repositories;
 
-import com.valdisnei.valdisnei_streaming.model.FilmeModel;
+import com.valdisnei.valdisnei_streaming.domain.model.FilmeModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

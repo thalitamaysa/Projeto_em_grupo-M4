@@ -1,25 +1,26 @@
-package com.valdisnei.valdisnei_streaming.model;
+package com.valdisnei.valdisnei_streaming.domain.model;
 
 import jakarta.persistence.*;
-
 import lombok.*;
+
 
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
 
 @Entity
-@Table(name="Artista")
-public class ArtistaModel {
+@Table(name="Usuario")
+public class UsuarioModel {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String nome;
 
-    private String dataDeNascimento;
+    private String email;
 
-    private String genero;
+
 }

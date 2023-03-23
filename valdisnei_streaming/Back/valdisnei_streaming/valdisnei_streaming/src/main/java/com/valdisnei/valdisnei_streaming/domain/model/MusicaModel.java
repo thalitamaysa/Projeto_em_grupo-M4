@@ -1,4 +1,4 @@
-package com.valdisnei.valdisnei_streaming.model;
+package com.valdisnei.valdisnei_streaming.domain.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -6,7 +6,6 @@ import lombok.*;
 
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
 
 @Entity
@@ -16,7 +15,12 @@ public class MusicaModel extends MidiaModel{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     @OneToOne
-    private ArtistaModel artista;
+    private MusicoModel musicoModel;
+
     private int nota;
+
+
+
 }

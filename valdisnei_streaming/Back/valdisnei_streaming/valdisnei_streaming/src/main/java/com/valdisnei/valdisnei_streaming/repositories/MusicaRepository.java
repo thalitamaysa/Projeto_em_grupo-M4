@@ -1,6 +1,6 @@
 package com.valdisnei.valdisnei_streaming.repositories;
 
-import com.valdisnei.valdisnei_streaming.model.MusicaModel;
+import com.valdisnei.valdisnei_streaming.domain.model.MusicaModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
