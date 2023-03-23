@@ -1,0 +1,12 @@
+.Carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 800px;
+    left: 248px;
+    margin-top: 80px;
+}
+
+
+

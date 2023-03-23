@@ -3,7 +3,11 @@
 
 <h2 align="center">:sparkles: Projeto em grupo - Modulo 4 :sparkles:</h2>
 
+
+<h3 align="center">Estaremos apresentando nosso projeto em grupo do ultimo modulo como foi desenvolvido.</h3>
+
 <h2 align="center">:arrow_down: Abaixo está as informações de como o projeto foi desenvolvido:arrow_down:</h2>
+
 
 <p align="center"> Neste projeto uma empresa de midia deseja implementar um serviço streaming chamado Valdisnei e fomos contratados para desenvolver uma aplicação web que implementa esse serviço.
 <br> Neste serviço deve conter músicas, filmes, séries e demais mídias.</p>
@@ -80,6 +84,4 @@
 
 
 
-<h4 align="center"> :sparkles: Como ultimo projeto individual, gostariamos de agradecer a todos do curso da Resilia e seus facilitadores, a RD que nos deu essa oportunidade, ao pessoal da RD que nos acompanharam até aqui, aos nossos amigos de trabalho que nos apoiaram em todos os projetos e as pessoas que sempre estiveram ao nosso lado nos apoiando.":sparkles:</h4>
-
-
+<p align="center"><img src='https://i.postimg.cc/tsGMz4hW/8d30fac4bf94f93d8de538d4c13b0b44.gif' border='0' alt='8d30fac4bf94f93d8de538d4c13b0b44'/>

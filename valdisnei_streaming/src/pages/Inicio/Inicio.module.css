@@ -1,0 +1,33 @@
+
+.InicioBody{
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+    align-items: center;
+}
+.centroInicio{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.breaking{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.breaking img{
+    width: 225px;
+    transition: 0.5;
+}
+
+.breaking img:hover{
+   
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.5);
+    transform: scale(1.05);
+    transition-duration: 0.6s;
+        
+}
