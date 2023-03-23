@@ -7,9 +7,6 @@ import { useState } from 'react'
 
 import Footer from '../../components/Footer/Footer';
 
-// toastify - https://www.npmjs.com/package/react-toastify
-
-
 export default function Login() {
 
   const navigate = useNavigate()
