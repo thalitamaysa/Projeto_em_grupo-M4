@@ -15,8 +15,8 @@ export default function Filme() {
     <HeaderMenu/>
     <Container>
     <CarouselFilme />
-      </Container>
-      <ImagemBotaoF />
+    </Container>
+    <ImagemBotaoF />
     <Footer/>
     </>
 
