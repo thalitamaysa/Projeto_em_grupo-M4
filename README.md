@@ -85,5 +85,6 @@
 
 
 
+<h4 align="center"> :sparkles: Como ultimo projeto individual, gostariamos de agradecer a todos do curso da Resilia e seus facilitadores, a RD que nos deu essa oportunidade, ao pessoal da RD que nos acompanharam até aqui, aos nossos amigos de trabalho que nos apoiaram em todos os projetos e as pessoas que sempre estiveram ao nosso lado nos apoiando.":sparkles:</h4>
 
 
