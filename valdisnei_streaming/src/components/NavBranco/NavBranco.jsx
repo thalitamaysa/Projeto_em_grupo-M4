@@ -13,7 +13,7 @@ export default function NavBranco() {
         <Link to={"/serie"}>Series</Link>
         <Link to={"/filme"}>Filmes</Link>
         <Link to={"/musica"}>Musicas</Link>
-        <Link to={"/"}>Minha Lista</Link>
+        <Link to={"/minha lista"}>Minha Lista</Link>
       </nav>
     </div>
   )

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
 /* Ajuste do NavMenu */
 .NavMenu{
     display: flex;
@@ -24,11 +24,10 @@
 .links{
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 10px;
     padding: 3px;
     color: white;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
 
@@ -36,7 +35,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;   
 }
 
 /* Ajuste do icone */
