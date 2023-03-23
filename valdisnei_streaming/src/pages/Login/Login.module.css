@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario input {
+    margin: 10px 0;
+    padding: 15px;
+    width: 330px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background-color: #1E1E1E;
+    color: #FFF;
+}
+
+.formulario input::placeholder {
+    color: #9E9FA3;
+    font-size: 13px;
+}
+
+#senha {
+    width: 320px;
+    margin-bottom: 20px;
+}
+
+#cadastro {
+    width: 320px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.formulario button {
+    width: 330px;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #000000;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.link {
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* link hover */
+.link:hover {
+    color: #1ad1e2;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+

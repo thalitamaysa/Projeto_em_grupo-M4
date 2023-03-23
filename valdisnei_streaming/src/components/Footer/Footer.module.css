@@ -1,0 +1,22 @@
+.Footer{
+    bottom: 0;
+    width: 99.9%;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.rodape img {
+    margin-top: 20px;
+    width: 200px;
+}

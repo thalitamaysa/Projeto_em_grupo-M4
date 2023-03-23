@@ -1,0 +1,24 @@
+
+body, html, #root{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    background: linear-gradient(180deg,rgba(0,0,0,1) 55%, rgba(25,53,55,1) 95%, rgba(25,53,55,1) 100%);
+    background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: linear-gradient(180deg,rgba(0,0,0,1) 55%, rgba(25,53,55,1) 95%, rgba(25,53,55,1) 100%);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #b39aa1;
+    border-radius: 15px;
+  }
+  
+

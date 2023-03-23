@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+}
+
+.playlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 12%;
+    height: 30%;
+    color: #FFF;
+    margin-left: 30px;
+}
+
+.playlist img {
+    width: 13px;
+    cursor: pointer;
+}
+
+.opcoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    height: 70%;
+}
+
+.linha1, .linha2, .linha3 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.linha1 img, .linha2 img, .linha3 img {
+    width: 120px;
+    cursor: pointer;
+    margin-right: 30px;
+    box-shadow: 5px 2px 10px #000000a0;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons img {
+    margin-right: 10px;
+}
+.modal-body {
+    width: 100vw;
+    overflow-y: auto;
+  }
