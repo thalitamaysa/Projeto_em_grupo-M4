@@ -23,12 +23,12 @@ export default function CarouselNoController() {
           <img className='d-block w-100 rounded-3 shadow-4-strong' src='https://i.postimg.cc/rsmc7Z9c/oautodacompadecidacapa-1.jpg' border='0' alt='oautodacompadecidacapa-1'/>
         </Carousel.Item>
       </Carousel>
+
        /* </Container>  */
+
+      
     
-  
-    
-  );
-}
+)}
 
 
 

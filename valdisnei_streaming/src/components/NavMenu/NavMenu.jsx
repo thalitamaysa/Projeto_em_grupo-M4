@@ -9,6 +9,8 @@ import IconeSeries from "../../assets/icons/tv.png"
 import IconeUser from "../../assets/icons/user.png"
 import React, { useState } from 'react'
 
+import ButtonLogin from "../Login/ButtonLogin"
+
 export default function Nav() {
 const [searchTerm, setSearchTerm] = useState("")
 
@@ -69,7 +71,7 @@ function handleSearchSubmit(e){
 
       
       <div className={styles.userIcon}>
-          <img src={IconeUser}/>
+          <ButtonLogin/>
       </div>
     </div>
   )
