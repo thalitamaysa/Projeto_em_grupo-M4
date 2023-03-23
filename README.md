@@ -3,7 +3,7 @@
 
 <h2 align="center">:sparkles: Projeto em grupo - Modulo 4 :sparkles:</h2>
 
-<h2 align="center">:arrow_down: Abaixo está informações de como o projeto foi desenvolvido:arrow_down:</h2>
+<h2 align="center">:arrow_down: Abaixo está as informações de como o projeto foi desenvolvido:arrow_down:</h2>
 
 <p align="center"> Neste projeto uma empresa de midia deseja implementar um serviço streaming chamado Valdisnei e fomos contratados para desenvolver uma aplicação web que implementa esse serviço.
 <br> Neste serviço deve conter músicas, filmes, séries e demais mídias.</p>
