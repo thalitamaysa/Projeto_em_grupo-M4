@@ -4,9 +4,10 @@ img{
 
 
 .container {
-    margin-top: 10%;
+    margin-top: 120px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .container2{
@@ -30,13 +31,13 @@ img{
 }
 
 .btnWrap {
-
     margin-top: 7%;
     margin-left: 3%;
     width: 40%;
     display:inline-block;
     position:relative;
 }
+
 .btnWrap div{
     width: 100%;
 }

@@ -19,18 +19,14 @@ import adicionar from './../../assets/icons/adicionar.png'
 import alterar from './../../assets/icons/alterar.png'
 import excluirlista from './../../assets/icons/excluirlista.png'
 
+import HeaderMenu from './../../components/HeaderMenu/HeaderMenu'
 import Footer from './../../components/Footer/Footer'
 
 export default function Musica() {
 
-  const handleMusicClick = (musicType) => {
-    setSelectedMusic(musicType);
-    setShowModal(true);
-  };
-  const [showModal, setShowModal] = useState(false);
-const [selectedMusic, setSelectedMusic] = useState('');
   return (
-    
+    <>
+    <HeaderMenu/>
     <div className={styles.container}>
       <div className={styles.playlist}>
         <div className={styles.icons}>
@@ -66,19 +62,8 @@ const [selectedMusic, setSelectedMusic] = useState('');
           <img src={Relax} alt="" />
         </div>
       </div>
-      <Modal show={showModal} onHide={() => setShowModal(false)} style={{width: '100vw', height:'100vh'}}>
-  <Modal.Header closeButton>
-    <Modal.Title>Músicas de {selectedMusic}</Modal.Title>
-  </Modal.Header>
-  <Modal.Body>
-    {/* Conteúdo*/}
-  </Modal.Body>
-  <Modal.Footer>
-    <Button variant="secondary" onClick={() => setShowModal(false)}>
-      Fechar
-    </Button>
-  </Modal.Footer>
-</Modal>
     </div>
+    <Footer/>
+    </>
     )
   }

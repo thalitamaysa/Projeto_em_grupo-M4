@@ -4,7 +4,7 @@ import styles from './ImagemComBotao.module.css';
 import Megan from '../../assets/img/filmes/megan.jpg';
 import hp from '../../assets/img/filmes/hp.png';
 import GatoDeBotas from '../../assets/img/filmes/gatosDeBotas.jpg';
-import avatar from '../../assets/img/filmes/avatar.jpg';
+mport avatar from '../../assets/img/filmes/avatar.jpg';
 import oautodacompadecia from '../../assets/img/filmes/oautodacompadecida.jpg';
 import TeenWolff from '../../assets/img/filmes/TeenWolff.jpg'
 import wakandaParaSempre from '../../assets/img/filmes/wakandaParaSempre.jpg'
@@ -65,7 +65,6 @@ const emAlta = [
     src: Megan,
     title: 'Megan',
     duration: 120
-
   },
   {
     id: 2,
@@ -87,10 +86,30 @@ const emAlta = [
   },
   {
     id: 5,
-    src: wakandaParaSempre ,
-    title: 'Wakanda para sempre',
-    duration: 181
-  }
+    src: Megan,
+    title: 'Harry Potter',
+    duration:100
+  },
+  {
+    id: 6,
+    src: hp,
+    title: 'Harry Potter',
+    duration:100
+  },
+  {
+    id: 7,
+    src: Megan,
+    title: 'Harry Potter',
+    duration:100
+  },
+  {
+    id: 8,
+    src: hp,
+    title: 'Harry Potter',
+    duration:100
+  },
+  
+  
 ];
    
   

@@ -48,7 +48,7 @@ function handleSearchSubmit(e){
             <Link to={"/musica"} className={styles.links}>Músicas</Link>
           </div>
 
-          <div className={styles.linkContainer}>
+          <div className={styles.linkContainer1}>
             <img src={IconeMinhaLista} alt="" className={styles.icones} />
             <Link to={"/"} className={styles.links}>Minha Lista</Link>
           </div>
