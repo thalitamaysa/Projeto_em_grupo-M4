@@ -68,7 +68,7 @@ séries e demais mídias.</p>
 <b align='right'>Leonardo Reis</b>
 <br>
 
-[![Linkedin Badge](https://img.shields.io/badge/leornardoreis-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=//https://www.linkedin.com/in/leonardo-reis-95228893/)](https://www.linkedin.com/in/leonardo-reis-95228893/) [![Github Badge](https://img.shields.io/badge/leonardoreis-100000?style=for-the-badge&logo=github&logoColor=whitee&link=https://github.com/lrmello/)](https://github.com/lrmello/)
+[![Linkedin Badge](https://img.shields.io/badge/leonardoreis-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=//https://www.linkedin.com/in/leonardo-reis-95228893/)](https://www.linkedin.com/in/leonardo-reis-95228893/) [![Github Badge](https://img.shields.io/badge/leonardoreis-100000?style=for-the-badge&logo=github&logoColor=whitee&link=https://github.com/lrmello/)](https://github.com/lrmello/)
 
 
 
